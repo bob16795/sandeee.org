@@ -58,6 +58,12 @@ aside p {
     margin: 8px;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
 p,
 ul,
 li {
