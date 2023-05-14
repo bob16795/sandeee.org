@@ -6,9 +6,8 @@
 
 body {
     min-height: 100vh;
-    /* background: url(/imgs/gradient.png) center repeat-x; */
-    background: #252323;
-    background-size: 100%;
+    background: url(/imgs/eee.png) repeat;
+    /* background: #252323; */
     background-attachment: fixed;
 }
 
