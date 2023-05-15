@@ -41,12 +41,11 @@ body {
     font-size: 16px;
 }
 
-.content,
-aside {
+.content {
     position: relative;
     font-size: 16px;
     font-family: SandEEESans;
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     border: 2px solid black;
     border-top: 0px;
@@ -67,19 +66,41 @@ p,
 ul,
 li {
     margin: 0;
+    margin-left: 8px;
+}
+
+li {
+    margin-bottom: 16px;
+    list-style-type: none;
+}
+
+ul li:before {
+    content: ">";
+    margin-right: 16px;
 }
 
 ul {
-    padding-inline-start: 20px;
+    padding-inline-start: 0px;
 }
 
 aside {
-    width: 30%;
-    display: block;
+    width: 250px;
+    display: flex;
+    grid-column: auto;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#links {
+    height: 70%;
+}
+
+#news {
+    height: 30%;
 }
 
 main {
-    width: 74%;
+    width: 600px;
     padding-right: 16px;
     display: block;
 }
@@ -93,8 +114,7 @@ main {
     margin: 0 auto;
 }
 
-.content,
-aside {
+.content {
     margin-bottom: 16px;
 }
 
