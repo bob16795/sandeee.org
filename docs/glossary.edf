@@ -19,5 +19,9 @@ EEE Email Entrys
 EEE Shell Script
 -- Program Counter --
 Stores the index of the current instruction.
+-- Stack --
+A list of strings and numbers the vm uses for temporary storage.
 -- SYSCALL --
 An assembly function that has full IO access.
+-- VM --
+The code the system uses to run eep files.

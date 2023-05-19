@@ -56,3 +56,15 @@ Pushes 1 if the top 2nd value on the stack is less than the first.
 Pushes 1 if the top 2nd value on the stack is greater than the first.
 -- 0x1A CAT --
 Combines 2 strings, or appends a int as bytes to a string.
+-- 0x1B MOD --
+Modulo on the top 2 values on the stack.
+-- 0x1C CREATE --
+Creates a zeroed string with the length on the top of the stack and pushes it to the stack.
+-- 0x1D SIZE --
+Sets the length of the string on the top of the stack. Can only shrink strings.
+-- 0x1E LEN --
+Pushes the length of the string on the top of the stack in place of the string.
+-- 0x1F SIN --
+Pops the top of the stack as x, pushes (sin(x * (pi * 2) / 255) + 1.0) * 127
+-- 0x20 COS --
+Pops the top of the stack as x, pushes (cos(x * (pi * 2) / 255) + 1.0) * 127
