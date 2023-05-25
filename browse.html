@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>browse</title>
     <script src="browse.js"></script>
-  </head>
-  <body>
-    <label for="url">URL:</label>
-    <input type="text" id="url" />
-    <button onclick="loadpage()" type="submit">Submit</button>
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <label for="url">URL:</label>
+        <input type="text" id="url" />
+        <input type="submit" onclick="loadpage()" type="submit" value="Go" />
+    </form>
     <div id="content">
     </div>
-  </body>
+</body>
+
 </html>
