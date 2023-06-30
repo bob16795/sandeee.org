@@ -1,4 +1,6 @@
-:center: - [@/logo.eia] -
+#Style @/style.eds
+
+:logo: [@/logo.eia]
 
 :center: -- Downloads --
 
