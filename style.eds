@@ -1,3 +1,7 @@
 #logo
 align: Center
 scale: 6.0
+
+#red
+color: FF0000
+align: Center
