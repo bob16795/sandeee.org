@@ -5,3 +5,8 @@ scale: 6.0
 #red
 color: FF0000
 align: Center
+
+#note
+color: FF0000
+align: Center
+scale: 1.5
