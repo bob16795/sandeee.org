@@ -14,7 +14,7 @@ A EON function should always return a value.
 
 -- 2 Libraries --
 
-:h3: Header Libraries
+:h3: 2.1 Header Libraries
 
 Header Libraries can be included through the #include keyword. Header libraries are found in /libs/inc. Including a header library adds its contents directly into the current file.
 
@@ -27,11 +27,11 @@ Header Libraries can be included through the #include keyword. Header libraries 
 :code:     | }
 :code-edge:
 
-:h3: ELL Libraries
+:h3: 2.2 ELL Libraries
 
 ELL Libraries can be loaded through the libload.eon header library.
 
--- Advanced Features --
+-- 3 Advanced Features --
 
 EON functions can be called with too many parameters. These paramterers will be ignored by the function, this will result in an error unless you use the arguments with asm.
 
