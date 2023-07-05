@@ -1,3 +1,5 @@
+#Style @/style.eds
+
 - VM Op-Codes -
 -- 0x00 NOP --
 Does nothing
@@ -68,3 +70,5 @@ Pushes the length of the string on the top of the stack in place of the string.
 Pops the top of the stack as x, pushes (sin(x * (pi * 2) / 255) + 1.0) * 127
 -- 0x20 COS --
 Pops the top of the stack as x, pushes (cos(x * (pi * 2) / 255) + 1.0) * 127
+
+:center: --- EEE Sees all ---

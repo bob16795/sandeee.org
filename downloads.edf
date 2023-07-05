@@ -4,19 +4,19 @@
 
 :center: -- Downloads --
 
-:center: + Tools +
+:hs: Tools
 
-:center: > paint: @/downloads/tools/paint.eep
+:biglink: > paint: @/downloads/tools/paint.eep
 
-:center: + Wallpapers +
+:hs: Wallpapers
 
-:center: > Wood: @/downloads/wallpapers/wood.eia
-:center: > Capy: @/downloads/wallpapers/capy.eia
+:biglink: > Wood: @/downloads/wallpapers/wood.eia
+:biglink: > Capy: @/downloads/wallpapers/capy.eia
 
-:center: + Games +
+:biglink: + Games +
 
-:center: > Pong: @/downloads/games/pong.eep
-:center: > PongAssets: @/downloads/games/pong.eia
+:biglink: > Pong: @/downloads/games/pong.eep
+:biglink: > PongAssets: @/downloads/games/pong.eia
 :red: Connectris
 :red: ConnectrisAssets
 

@@ -1,8 +1,23 @@
-- Docs -
-> glossary: @/docs/glossary.edf
--- System Structure --
-> fake files: @/docs/fake/index.edf
--- The VM --
-> general: @/doc/vm/start.edf
-> op codes: @/docs/vm/ops.edf
-> sys: @/docs/vm/sys.edf
+#Style @/style.eds
+:logo: [@/logo.eia]
+
+:center: -- Docs --
+
+:hs: ASM
+
+:red: General
+
+:hs: EON
+
+:biglink: > General: @/docs/eon/start.edf
+
+:hs: System
+
+:biglink: > Fake files: @/docs/fake/index.edf
+:biglink: > The VM: @/docs/vm/start.edf
+:biglink: > Op codes: @/docs/vm/ops.edf
+:biglink: > Sys: @/docs/vm/sys.edf
+
+:hs: Misc
+
+:biglink: > glossary: @/docs/glossary.edf
