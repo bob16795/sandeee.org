@@ -32,7 +32,7 @@ Header Libraries can be included through the #include keyword. Header libraries 
 ELL Libraries can be loaded through the libload.eon header library.
 
 :code-edge:
-:code:     | #include "/libs/inc/sys.eon"
+:code:     | #include "/libs/inc/libload.eon"
 :code:     |
 :code:     | fn main() {
 :code:     |     setupLibLoad();
