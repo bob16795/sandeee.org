@@ -13,7 +13,7 @@
 
 :hs: System
 
-:biglink: > Fake files: @/docs/fake/index.edf
+:biglink: > Fake files: @/docs/fake/start.edf
 :biglink: > The VM: @/docs/vm/start.edf
 :biglink: > Op codes: @/docs/vm/ops.edf
 :biglink: > Sys: @/docs/vm/sys.edf
