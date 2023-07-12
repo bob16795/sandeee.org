@@ -6,7 +6,7 @@
 
 :hs: Tools
 
-:biglink: > paint: @/downloads/tools/paint.eep
+:biglink: > Paint: @/downloads/tools/paint.epk
 
 :hs: Wallpapers
 
@@ -16,7 +16,6 @@
 :biglink: + Games +
 
 :biglink: > Pong: @/downloads/games/pong.epk
-:red: Connectris
-:red: ConnectrisAssets
+:biglink: > Connectris: @/downloads/games/connectris.epk
 
 :center: --- EEE Sees all ---
