@@ -8,6 +8,19 @@
 
 -- 0.3.2 --
 
+|+ add dynamic vm execution
+|! update wording for some emails
+|+ add Epsilon checker
+|+ add setlen to vert array for font
+|+ add hyphen after from in email
+|! update font rendering again
+|! fix font rendering slow
+|! update fonts to have more chars
+|! fix font color reseting with wrap
+|! final changlelog update hopefully
+|! update website
+|! fix scrollbar moving when clicked behind window
+|! update ui scrollbar texture
 |* text picker looks nicer
 |! fix some lag in explorer
 |* email rewrite
