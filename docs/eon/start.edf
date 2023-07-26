@@ -55,9 +55,50 @@ If you feed a variable into a function and assign to it in the function it will 
 :code:    | }
 :code-edge:
 
--- 3 Libraries --
+-- 3 Code Blocks --
 
-:h3: 2.1 Header Libraries
+:h3: 3.1 Basic Code Blocks
+
+Code can be blocked into a single statement by wrapping it in {}.
+Variables in a code block are destroyed after its execution.
+
+:code-edge:
+:code:    | #include "/libs/inc/sys.eon"
+:code:    |
+:code:    | fn main() {
+:code:    |     {
+:code:    |         var tmp = 10;
+:code:    |         
+:code:    |         print(tmp);
+:code:    |     }
+:code:    |     
+:bad-code:|     print(tmp);
+:code:    |     return 0;
+:code:    | }
+:code-edge:
+
+:h3: 3.2 If statements
+
+An if statement has the following syntax.
+
+:code-edge:
+:code:    | fn main() {
+:code:    |     if (0 == 0) print("0 is 0\n");
+:code:    |
+:code:    |     // You can also use a basic block
+:code:    |     // in an if to add more statements.
+:code:    |     if (0 == 0 && 0 != 1) {
+:code:    |         print("0 is 0\n");
+:code:    |         print("0 is also not 1\n");
+:code:    |     }
+:code:    |
+:code:    |     return 0;
+:code:    | }
+:code-edge:
+
+-- 4 Libraries --
+
+:h3: 4.1 Header Libraries
 
 Header Libraries can be included through the #include keyword. Header libraries are found in /libs/inc. Including a header library adds its contents directly into the current file.
 
@@ -70,7 +111,7 @@ Header Libraries can be included through the #include keyword. Header libraries 
 :code:    | }
 :code-edge:
 
-:h3: 2.2 ELL Libraries
+:h3: 4.2 ELL Libraries
 
 ELL Libraries can be loaded through the libload.eon header library.
 
@@ -86,7 +127,7 @@ ELL Libraries can be loaded through the libload.eon header library.
 :code:    | }
 :code-edge:
 
--- 4 Advanced Features --
+-- 5 Advanced Features --
 
 EON functions can be called with too many parameters. These paramterers will be ignored by the function, this will result in an error unless you use the arguments with asm.
 
