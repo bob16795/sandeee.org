@@ -7,6 +7,15 @@
 
 -- 0.3.2 --
 
+|! rewrite shell ls to fix extr files
+|+ Add logout sound asset
+|! fix text wrap in file & folder pick
+|! fix mem leak for web browser
+|+ add editor selection with keyboard
+|- remove some old todos
+|! fix events crash
+|! fix copy event
+|! update changelog script
 |+ implement extr path setting
 |! fix small memory leak
 |! fix email scrolling
