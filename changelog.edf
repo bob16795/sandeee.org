@@ -7,6 +7,16 @@
 
 -- 0.3.2 --
 
+|+ add version to telem
+|* start debug mode
+|! fix editor bug
+|* less lag when crt is disabled
+|* cleanup some dev stuff
+|+ Add somemore emails
+|! fix web culling
+|* more backend steam stuff
+|! fix shell
+|+ add new file button to editor
 |+ add more steam web stuff
 |+ add keybinds to navigate web
 |! Editor selection fixes
