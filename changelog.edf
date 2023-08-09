@@ -7,6 +7,17 @@
 
 -- 0.3.2 --
 
+|+ add more steam web stuff
+|+ add keybinds to navigate web
+|! Editor selection fixes
+|* cleanup debug info
+|+ add solid bg to epkman
+|+ add clear color rule to VM windows
+|! shader updates
+|! update to zig 0.11.0 stable
+|+ add some keybinds to the web browser
+|* cleanup debug menu rendering
+|* web browser nolonger freezes the game on close
 |+ add logout sound to logout state
 |* reword some emails
 |* ship libs on linux
