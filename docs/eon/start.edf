@@ -55,6 +55,25 @@ If you feed a variable into a function and assign to it in the function it will 
 :code:    | }
 :code-edge:
 
+You can avoid this behaviour with the dup function.
+
+:code-edge:
+:code:    | fn setValue(val) {
+:code:    |     val = 100;
+:code:    |     
+:code:    |     return 0;
+:code:    | }
+:code:    |     
+:code:    | fn main() {
+:code:    |     var test = 10; 
+:code:    |     
+:code:    |     // this will not set test to 100
+:code:    |     setValue(dup(test));
+:code:    |     
+:code:    |     return 0;
+:code:    | }
+:code-edge:
+
 -- 3 Code Blocks --
 
 :h3: 3.1 Basic Code Blocks

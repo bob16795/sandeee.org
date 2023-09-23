@@ -7,6 +7,10 @@
 
 -- Upcoming --
 
+
+-- 0.4.2 --
+
+|+ Add AI to pong
 |! Fix mouse release out of window
 |+ Add ascii test
 |! Fix arrow keys in editor
