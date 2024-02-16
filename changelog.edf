@@ -7,6 +7,48 @@
 
 -- Upcoming --
 
+|! Fix web culling
+|+ Add icons to apps menu
+|* Optimize file streams
+|* Welcome disable button
+|! Update fonts
+|! Fix email click with scrolling
+|* Debug password now actually works.
+|! Fix windows focusing on every click
+|! Fix popup title wrap
+|! update some web stuff
+|+ Add disable props for window buttons
+|* Rewrite popups
+|! update logging for better debugging
+|! Update wallpapers again
+|! Update wallpapers & config
+|! update some images
+|+ Add stop command
+|+ Add more stats to tasks
+|! Reimplement tasks refresh
+|+ Add log file
+|+ Add shortcuts to recovery sub sub menu
+|* Change some text in settings
+|! Update vm speed alg
+|+ Add editor save as
+|* Outline text in confirm popups
+|! Fix hacky disabled buttons
+|* Rebound offscreen windows
+|! Fix wrap in web bar.
+|! RE: Fix icon flicker in explorer
+|! Fix icon flicker in explorer
+|+ Add labels to tasks
+|* cleanup vm
+|* cleanup pong code a bit
+|* window library optimization
+|* spritebatch optimization
+|! fix tasks related bug
+|+ Add scroll to task list in tasks
+|* Inline some functions
+|+ Add back button to settings bar
+|! Update settings bar text
+|+ Add a basic bar to settings
+|! Fix link highlighting in web
 
 -- 0.4.2 --
 
