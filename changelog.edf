@@ -7,6 +7,35 @@
 
 -- Upcoming --
 
+
+-- 0.4.3 --
+
+|! Update build tools
+|! Fix VM issues.
+|! Fix email crash
+|* Decrease files memory usage
+|! Fix eln related crash
+|! Update build system
+|* Auto generate downloads page
+|* Rework email code
+|* Rework Tasks UI
+|! update assets
+|+ Add some more eln files and images
+|* replace error image
+|* Optimize vm a bit
+|* Make the bar configurable
+|* cleanup random tests
+|+ add cmd eln file
+|! update to zig 0.12.0-dev.2757
+|! fix tasks rendering
+|* change glDepthFunc
+|- remove syscall event
+|! Update refresh rate
+|+ add some todos
+|* cleanup textures tooling
+|+ Add vm run syscall
+|- Remove notif sprite
+|* Increase minimum VM time
 |! Fix web culling
 |+ Add icons to apps menu
 |* Optimize file streams
